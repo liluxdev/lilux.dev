@@ -199,6 +199,21 @@ var tarotDeck = {
                 'coins': {max: 14, start: 01},
 
             }
+        },
+        ananke:{
+            zoomableCards: true,
+            alwaysUpright: true,
+            numberOfCards: 23,
+            onlyNumbers: false,
+            backOfTheCardImgRelativeUrl: '/apps/tarot/decks/ananke/46.ong',
+            root: '/apps/tarot/decks/ananke/',
+            prefixDigit: '',
+            separator: '',
+            ext: 'png',
+            majorArcanaSeed: 'major',
+            seeds: {
+                'major': {max: 23, start: 1}
+            }
         }
 
     },
